@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.*;
 @QuarkusTest
 class NumberResourceTest {
     @Test
-    void testHelloEndpoint() {
+    void shouldGenerateIsbnNumbers() {
         given()
           .when().get("/api/numbers")
           .then()
